@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE254AA22672180200A7343E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE254AA12672180200A7343E /* AppDelegate.swift */; };
+		BE254AA42672180200A7343E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE254AA32672180200A7343E /* SceneDelegate.swift */; };
+		BE254AA62672180200A7343E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE254AA52672180200A7343E /* ViewController.swift */; };
+		BE254AA92672180200A7343E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE254AA72672180200A7343E /* Main.storyboard */; };
+		BE254AAB2672180400A7343E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE254AAA2672180400A7343E /* Assets.xcassets */; };
+		BE254AAE2672180400A7343E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE254AAC2672180400A7343E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE067A21275513DC009A7C56 /* Driver SanJose Airport Blvd - 1740 Cleveland Ave.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Driver SanJose Airport Blvd - 1740 Cleveland Ave.gpx"; sourceTree = "<group>"; };
+		BE254A9E2672180200A7343E /* GPX12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPX12.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE254AA12672180200A7343E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE254AA32672180200A7343E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BE254AA52672180200A7343E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE254AA82672180200A7343E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE254AAA2672180400A7343E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE254AAD2672180400A7343E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE254AAF2672180400A7343E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE254AB8267218CE00A7343E /* SFO 1NorthRoute.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SFO 1NorthRoute.gpx"; sourceTree = "<group>"; };
+		BE254ABA267218CE00A7343E /* SFO MarinaGreen.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SFO MarinaGreen.gpx"; sourceTree = "<group>"; };
+		BE254ABC267218CE00A7343E /* SFO Genentech-Airport.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SFO Genentech-Airport.gpx"; sourceTree = "<group>"; };
+		BE254ABD267218CE00A7343E /* SFO Airport-Genentech.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SFO Airport-Genentech.gpx"; sourceTree = "<group>"; };
+		BE28BDD127BD8C9C00AF86DA /* SJC Real ride 2.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SJC Real ride 2.gpx"; sourceTree = "<group>"; };
+		BE28BDD227BE73C900AF86DA /* SJC Real ride 1.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SJC Real ride 1.gpx"; sourceTree = "<group>"; };
+		BE397C3926B2EB0700E29315 /* Test.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Test.gpx; sourceTree = "<group>"; };
+		BE397C3B26B2F26F00E29315 /* SFO Highway.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SFO Highway.gpx"; sourceTree = "<group>"; };
+		BE443BCE27E482BF00106B77 /* way4.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = way4.gpx; path = ../../../Desktop/way4.gpx; sourceTree = "<group>"; };
+		BE4C1E1F26A953F30074440F /* SFO South route.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SFO South route.gpx"; sourceTree = "<group>"; };
+		BE640EA127EC8F540072867F /* SFO-QueueLot.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "SFO-QueueLot.gpx"; path = "../../../Developer/Lyft-iOS/Modules/BuildSupport/MockLocations/SFO-QueueLot.gpx"; sourceTree = "<group>"; };
+		BE640EA227EC8F540072867F /* LyftHQ-MTL.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "LyftHQ-MTL.gpx"; path = "../../../Developer/Lyft-iOS/Modules/BuildSupport/MockLocations/LyftHQ-MTL.gpx"; sourceTree = "<group>"; };
+		BE640EA327EC8F540072867F /* SantaMonicaCA.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = SantaMonicaCA.gpx; path = "../../../Developer/Lyft-iOS/Modules/BuildSupport/MockLocations/SantaMonicaCA.gpx"; sourceTree = "<group>"; };
+		BE640EA427EC8F540072867F /* 301-Brannan-185-Berry.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "301-Brannan-185-Berry.gpx"; path = "../../../Developer/Lyft-iOS/Modules/BuildSupport/MockLocations/301-Brannan-185-Berry.gpx"; sourceTree = "<group>"; };
+		BE640EA527EC8F540072867F /* LyftHQ-SFO.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "LyftHQ-SFO.gpx"; path = "../../../Developer/Lyft-iOS/Modules/BuildSupport/MockLocations/LyftHQ-SFO.gpx"; sourceTree = "<group>"; };
+		BE640EA627EC8F540072867F /* LyftHQ-NYC.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "LyftHQ-NYC.gpx"; path = "../../../Developer/Lyft-iOS/Modules/BuildSupport/MockLocations/LyftHQ-NYC.gpx"; sourceTree = "<group>"; };
+		BE640EA727EC8F540072867F /* LyftHQ-SEA.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "LyftHQ-SEA.gpx"; path = "../../../Developer/Lyft-iOS/Modules/BuildSupport/MockLocations/LyftHQ-SEA.gpx"; sourceTree = "<group>"; };
+		BE640EA827EC8F540072867F /* VegasDispatch.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = VegasDispatch.gpx; path = "../../../Developer/Lyft-iOS/Modules/BuildSupport/MockLocations/VegasDispatch.gpx"; sourceTree = "<group>"; };
+		BE640EA927EC8F540072867F /* 185-Berry-2300-Harrison.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "185-Berry-2300-Harrison.gpx"; path = "../../../Developer/Lyft-iOS/Modules/BuildSupport/MockLocations/185-Berry-2300-Harrison.gpx"; sourceTree = "<group>"; };
+		BE640EAA27EC8F540072867F /* SFOAirport.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = SFOAirport.gpx; path = "../../../Developer/Lyft-iOS/Modules/BuildSupport/MockLocations/SFOAirport.gpx"; sourceTree = "<group>"; };
+		BE640EAB27EC8F550072867F /* LyftHQ-MSQ.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "LyftHQ-MSQ.gpx"; path = "../../../Developer/Lyft-iOS/Modules/BuildSupport/MockLocations/LyftHQ-MSQ.gpx"; sourceTree = "<group>"; };
+		BE7EADEC269EBC2D0082258E /* SFO Shared ride.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SFO Shared ride.gpx"; sourceTree = "<group>"; };
+		BEA3699427350D7A009A8D77 /* tunnel.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = tunnel.gpx; path = ../../../Desktop/tunnel.gpx; sourceTree = "<group>"; };
+		BEBED6E52695A8EB0000C90F /* SFO Airport - OKL Airport.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SFO Airport - OKL Airport.gpx"; sourceTree = "<group>"; };
+		BEC365D626A22CEB001BF671 /* SFO West coast.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SFO West coast.gpx"; sourceTree = "<group>"; };
+		BEC365D826A22E87001BF671 /* SFO West coast fixed.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SFO West coast fixed.gpx"; sourceTree = "<group>"; };
+		BEC4B46C2768E4CC009648EC /* Tolls1.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Tolls1.gpx; sourceTree = "<group>"; };
+		BEEFCCD527564B6800825679 /* Driver SanJose 1707 N 4th St - 713 Northrup.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Driver SanJose 1707 N 4th St - 713 Northrup.gpx"; sourceTree = "<group>"; };
+		BEEFCCD62756510900825679 /* Rider SanJose 1707.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Rider SanJose 1707.gpx"; sourceTree = "<group>"; };
+		BEF9B7122757AC830047A12B /* Sacramento 1361 El Nido Way - 2912 Auburn Blvd.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Sacramento 1361 El Nido Way - 2912 Auburn Blvd.gpx"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE254A9B2672180200A7343E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE254A952672180200A7343E = {
+			isa = PBXGroup;
+			children = (
+				BE640EA927EC8F540072867F /* 185-Berry-2300-Harrison.gpx */,
+				BE640EA427EC8F540072867F /* 301-Brannan-185-Berry.gpx */,
+				BE640EAB27EC8F550072867F /* LyftHQ-MSQ.gpx */,
+				BE640EA227EC8F540072867F /* LyftHQ-MTL.gpx */,
+				BE640EA627EC8F540072867F /* LyftHQ-NYC.gpx */,
+				BE640EA727EC8F540072867F /* LyftHQ-SEA.gpx */,
+				BE640EA527EC8F540072867F /* LyftHQ-SFO.gpx */,
+				BE640EA327EC8F540072867F /* SantaMonicaCA.gpx */,
+				BE640EA127EC8F540072867F /* SFO-QueueLot.gpx */,
+				BE640EAA27EC8F540072867F /* SFOAirport.gpx */,
+				BE640EA827EC8F540072867F /* VegasDispatch.gpx */,
+				BE443BCE27E482BF00106B77 /* way4.gpx */,
+				BE28BDD127BD8C9C00AF86DA /* SJC Real ride 2.gpx */,
+				BEC4B46C2768E4CC009648EC /* Tolls1.gpx */,
+				BEF9B7122757AC830047A12B /* Sacramento 1361 El Nido Way - 2912 Auburn Blvd.gpx */,
+				BE067A21275513DC009A7C56 /* Driver SanJose Airport Blvd - 1740 Cleveland Ave.gpx */,
+				BEA3699427350D7A009A8D77 /* tunnel.gpx */,
+				BE28BDD227BE73C900AF86DA /* SJC Real ride 1.gpx */,
+				BE397C3926B2EB0700E29315 /* Test.gpx */,
+				BE4C1E1F26A953F30074440F /* SFO South route.gpx */,
+				BEC365D626A22CEB001BF671 /* SFO West coast.gpx */,
+				BEC365D826A22E87001BF671 /* SFO West coast fixed.gpx */,
+				BE7EADEC269EBC2D0082258E /* SFO Shared ride.gpx */,
+				BEEFCCD527564B6800825679 /* Driver SanJose 1707 N 4th St - 713 Northrup.gpx */,
+				BEEFCCD62756510900825679 /* Rider SanJose 1707.gpx */,
+				BE254AB8267218CE00A7343E /* SFO 1NorthRoute.gpx */,
+				BE397C3B26B2F26F00E29315 /* SFO Highway.gpx */,
+				BEBED6E52695A8EB0000C90F /* SFO Airport - OKL Airport.gpx */,
+				BE254ABD267218CE00A7343E /* SFO Airport-Genentech.gpx */,
+				BE254ABC267218CE00A7343E /* SFO Genentech-Airport.gpx */,
+				BE254ABA267218CE00A7343E /* SFO MarinaGreen.gpx */,
+				BE254AA02672180200A7343E /* GPX12 */,
+				BE254A9F2672180200A7343E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE254A9F2672180200A7343E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE254A9E2672180200A7343E /* GPX12.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE254AA02672180200A7343E /* GPX12 */ = {
+			isa = PBXGroup;
+			children = (
+				BE254AA12672180200A7343E /* AppDelegate.swift */,
+				BE254AA32672180200A7343E /* SceneDelegate.swift */,
+				BE254AA52672180200A7343E /* ViewController.swift */,
+				BE254AA72672180200A7343E /* Main.storyboard */,
+				BE254AAA2672180400A7343E /* Assets.xcassets */,
+				BE254AAC2672180400A7343E /* LaunchScreen.storyboard */,
+				BE254AAF2672180400A7343E /* Info.plist */,
+			);
+			path = GPX12;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE254A9D2672180200A7343E /* GPX12 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE254AB22672180400A7343E /* Build configuration list for PBXNativeTarget "GPX12" */;
+			buildPhases = (
+				BE254A9A2672180200A7343E /* Sources */,
+				BE254A9B2672180200A7343E /* Frameworks */,
+				BE254A9C2672180200A7343E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPX12;
+			productName = GPX12;
+			productReference = BE254A9E2672180200A7343E /* GPX12.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE254A962672180200A7343E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BE254A9D2672180200A7343E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = BE254A992672180200A7343E /* Build configuration list for PBXProject "GPX Sim" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE254A952672180200A7343E;
+			productRefGroup = BE254A9F2672180200A7343E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE254A9D2672180200A7343E /* GPX12 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE254A9C2672180200A7343E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE254AAE2672180400A7343E /* LaunchScreen.storyboard in Resources */,
+				BE254AAB2672180400A7343E /* Assets.xcassets in Resources */,
+				BE254AA92672180200A7343E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE254A9A2672180200A7343E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE254AA62672180200A7343E /* ViewController.swift in Sources */,
+				BE254AA22672180200A7343E /* AppDelegate.swift in Sources */,
+				BE254AA42672180200A7343E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE254AA72672180200A7343E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE254AA82672180200A7343E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE254AAC2672180400A7343E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE254AAD2672180400A7343E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE254AB02672180400A7343E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE254AB12672180400A7343E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE254AB32672180400A7343E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8W96W266D;
+				INFOPLIST_FILE = GPX12/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.Eismant.GPX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE254AB42672180400A7343E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8W96W266D;
+				INFOPLIST_FILE = GPX12/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.Eismant.GPX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE254A992672180200A7343E /* Build configuration list for PBXProject "GPX Sim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE254AB02672180400A7343E /* Debug */,
+				BE254AB12672180400A7343E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE254AB22672180400A7343E /* Build configuration list for PBXNativeTarget "GPX12" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE254AB32672180400A7343E /* Debug */,
+				BE254AB42672180400A7343E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE254A962672180200A7343E /* Project object */;
+}
