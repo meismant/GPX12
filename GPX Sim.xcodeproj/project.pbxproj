@@ -17,6 +17,8 @@
 
 /* Begin PBXFileReference section */
 		BE067A21275513DC009A7C56 /* Driver SanJose Airport Blvd - 1740 Cleveland Ave.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Driver SanJose Airport Blvd - 1740 Cleveland Ave.gpx"; sourceTree = "<group>"; };
+		BE08965027F6FC0700208F71 /* SFO 998 Battery st - 1008 Mission st.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SFO 998 Battery st - 1008 Mission st.gpx"; sourceTree = "<group>"; };
+		BE1F962028104EF7001DE49C /* LAX 1919 W 67th - 119 E 119th St.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "LAX 1919 W 67th - 119 E 119th St.gpx"; path = "../../../Downloads/LAX 1919 W 67th - 119 E 119th St.gpx"; sourceTree = "<group>"; };
 		BE254A9E2672180200A7343E /* GPX12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPX12.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE254AA12672180200A7343E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE254AA32672180200A7343E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,32 +27,10 @@
 		BE254AAA2672180400A7343E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE254AAD2672180400A7343E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE254AAF2672180400A7343E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE254AB8267218CE00A7343E /* SFO 1NorthRoute.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SFO 1NorthRoute.gpx"; sourceTree = "<group>"; };
-		BE254ABA267218CE00A7343E /* SFO MarinaGreen.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SFO MarinaGreen.gpx"; sourceTree = "<group>"; };
-		BE254ABC267218CE00A7343E /* SFO Genentech-Airport.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SFO Genentech-Airport.gpx"; sourceTree = "<group>"; };
-		BE254ABD267218CE00A7343E /* SFO Airport-Genentech.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SFO Airport-Genentech.gpx"; sourceTree = "<group>"; };
 		BE28BDD127BD8C9C00AF86DA /* SJC Real ride 2.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SJC Real ride 2.gpx"; sourceTree = "<group>"; };
 		BE28BDD227BE73C900AF86DA /* SJC Real ride 1.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SJC Real ride 1.gpx"; sourceTree = "<group>"; };
 		BE397C3926B2EB0700E29315 /* Test.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Test.gpx; sourceTree = "<group>"; };
-		BE397C3B26B2F26F00E29315 /* SFO Highway.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SFO Highway.gpx"; sourceTree = "<group>"; };
-		BE443BCE27E482BF00106B77 /* way4.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = way4.gpx; path = ../../../Desktop/way4.gpx; sourceTree = "<group>"; };
-		BE4C1E1F26A953F30074440F /* SFO South route.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SFO South route.gpx"; sourceTree = "<group>"; };
-		BE640EA127EC8F540072867F /* SFO-QueueLot.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "SFO-QueueLot.gpx"; path = "../../../Developer/Lyft-iOS/Modules/BuildSupport/MockLocations/SFO-QueueLot.gpx"; sourceTree = "<group>"; };
-		BE640EA227EC8F540072867F /* LyftHQ-MTL.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "LyftHQ-MTL.gpx"; path = "../../../Developer/Lyft-iOS/Modules/BuildSupport/MockLocations/LyftHQ-MTL.gpx"; sourceTree = "<group>"; };
-		BE640EA327EC8F540072867F /* SantaMonicaCA.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = SantaMonicaCA.gpx; path = "../../../Developer/Lyft-iOS/Modules/BuildSupport/MockLocations/SantaMonicaCA.gpx"; sourceTree = "<group>"; };
-		BE640EA427EC8F540072867F /* 301-Brannan-185-Berry.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "301-Brannan-185-Berry.gpx"; path = "../../../Developer/Lyft-iOS/Modules/BuildSupport/MockLocations/301-Brannan-185-Berry.gpx"; sourceTree = "<group>"; };
-		BE640EA527EC8F540072867F /* LyftHQ-SFO.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "LyftHQ-SFO.gpx"; path = "../../../Developer/Lyft-iOS/Modules/BuildSupport/MockLocations/LyftHQ-SFO.gpx"; sourceTree = "<group>"; };
-		BE640EA627EC8F540072867F /* LyftHQ-NYC.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "LyftHQ-NYC.gpx"; path = "../../../Developer/Lyft-iOS/Modules/BuildSupport/MockLocations/LyftHQ-NYC.gpx"; sourceTree = "<group>"; };
-		BE640EA727EC8F540072867F /* LyftHQ-SEA.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "LyftHQ-SEA.gpx"; path = "../../../Developer/Lyft-iOS/Modules/BuildSupport/MockLocations/LyftHQ-SEA.gpx"; sourceTree = "<group>"; };
-		BE640EA827EC8F540072867F /* VegasDispatch.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = VegasDispatch.gpx; path = "../../../Developer/Lyft-iOS/Modules/BuildSupport/MockLocations/VegasDispatch.gpx"; sourceTree = "<group>"; };
-		BE640EA927EC8F540072867F /* 185-Berry-2300-Harrison.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "185-Berry-2300-Harrison.gpx"; path = "../../../Developer/Lyft-iOS/Modules/BuildSupport/MockLocations/185-Berry-2300-Harrison.gpx"; sourceTree = "<group>"; };
-		BE640EAA27EC8F540072867F /* SFOAirport.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = SFOAirport.gpx; path = "../../../Developer/Lyft-iOS/Modules/BuildSupport/MockLocations/SFOAirport.gpx"; sourceTree = "<group>"; };
-		BE640EAB27EC8F550072867F /* LyftHQ-MSQ.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "LyftHQ-MSQ.gpx"; path = "../../../Developer/Lyft-iOS/Modules/BuildSupport/MockLocations/LyftHQ-MSQ.gpx"; sourceTree = "<group>"; };
-		BE7EADEC269EBC2D0082258E /* SFO Shared ride.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SFO Shared ride.gpx"; sourceTree = "<group>"; };
-		BEA3699427350D7A009A8D77 /* tunnel.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = tunnel.gpx; path = ../../../Desktop/tunnel.gpx; sourceTree = "<group>"; };
-		BEBED6E52695A8EB0000C90F /* SFO Airport - OKL Airport.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SFO Airport - OKL Airport.gpx"; sourceTree = "<group>"; };
-		BEC365D626A22CEB001BF671 /* SFO West coast.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SFO West coast.gpx"; sourceTree = "<group>"; };
-		BEC365D826A22E87001BF671 /* SFO West coast fixed.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SFO West coast fixed.gpx"; sourceTree = "<group>"; };
+		BE60BC2927FC287E003C5837 /* SFO 2928 Diamond St - 2101 Jerrold Ave.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "SFO 2928 Diamond St - 2101 Jerrold Ave.gpx"; path = "../../../Desktop/SFO 2928 Diamond St - 2101 Jerrold Ave.gpx"; sourceTree = "<group>"; };
 		BEC4B46C2768E4CC009648EC /* Tolls1.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Tolls1.gpx; sourceTree = "<group>"; };
 		BEEFCCD527564B6800825679 /* Driver SanJose 1707 N 4th St - 713 Northrup.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Driver SanJose 1707 N 4th St - 713 Northrup.gpx"; sourceTree = "<group>"; };
 		BEEFCCD62756510900825679 /* Rider SanJose 1707.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Rider SanJose 1707.gpx"; sourceTree = "<group>"; };
@@ -71,37 +51,17 @@
 		BE254A952672180200A7343E = {
 			isa = PBXGroup;
 			children = (
-				BE640EA927EC8F540072867F /* 185-Berry-2300-Harrison.gpx */,
-				BE640EA427EC8F540072867F /* 301-Brannan-185-Berry.gpx */,
-				BE640EAB27EC8F550072867F /* LyftHQ-MSQ.gpx */,
-				BE640EA227EC8F540072867F /* LyftHQ-MTL.gpx */,
-				BE640EA627EC8F540072867F /* LyftHQ-NYC.gpx */,
-				BE640EA727EC8F540072867F /* LyftHQ-SEA.gpx */,
-				BE640EA527EC8F540072867F /* LyftHQ-SFO.gpx */,
-				BE640EA327EC8F540072867F /* SantaMonicaCA.gpx */,
-				BE640EA127EC8F540072867F /* SFO-QueueLot.gpx */,
-				BE640EAA27EC8F540072867F /* SFOAirport.gpx */,
-				BE640EA827EC8F540072867F /* VegasDispatch.gpx */,
-				BE443BCE27E482BF00106B77 /* way4.gpx */,
+				BE1F962028104EF7001DE49C /* LAX 1919 W 67th - 119 E 119th St.gpx */,
+				BE60BC2927FC287E003C5837 /* SFO 2928 Diamond St - 2101 Jerrold Ave.gpx */,
+				BE08965027F6FC0700208F71 /* SFO 998 Battery st - 1008 Mission st.gpx */,
 				BE28BDD127BD8C9C00AF86DA /* SJC Real ride 2.gpx */,
 				BEC4B46C2768E4CC009648EC /* Tolls1.gpx */,
 				BEF9B7122757AC830047A12B /* Sacramento 1361 El Nido Way - 2912 Auburn Blvd.gpx */,
 				BE067A21275513DC009A7C56 /* Driver SanJose Airport Blvd - 1740 Cleveland Ave.gpx */,
-				BEA3699427350D7A009A8D77 /* tunnel.gpx */,
 				BE28BDD227BE73C900AF86DA /* SJC Real ride 1.gpx */,
 				BE397C3926B2EB0700E29315 /* Test.gpx */,
-				BE4C1E1F26A953F30074440F /* SFO South route.gpx */,
-				BEC365D626A22CEB001BF671 /* SFO West coast.gpx */,
-				BEC365D826A22E87001BF671 /* SFO West coast fixed.gpx */,
-				BE7EADEC269EBC2D0082258E /* SFO Shared ride.gpx */,
 				BEEFCCD527564B6800825679 /* Driver SanJose 1707 N 4th St - 713 Northrup.gpx */,
 				BEEFCCD62756510900825679 /* Rider SanJose 1707.gpx */,
-				BE254AB8267218CE00A7343E /* SFO 1NorthRoute.gpx */,
-				BE397C3B26B2F26F00E29315 /* SFO Highway.gpx */,
-				BEBED6E52695A8EB0000C90F /* SFO Airport - OKL Airport.gpx */,
-				BE254ABD267218CE00A7343E /* SFO Airport-Genentech.gpx */,
-				BE254ABC267218CE00A7343E /* SFO Genentech-Airport.gpx */,
-				BE254ABA267218CE00A7343E /* SFO MarinaGreen.gpx */,
 				BE254AA02672180200A7343E /* GPX12 */,
 				BE254A9F2672180200A7343E /* Products */,
 			);
