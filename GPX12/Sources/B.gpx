@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="gpxgenerator.com">
+    <wpt lat="37.732166000" lon="-122.435500000">
+      <time>2021-12-08T11:58:00.488Z</time>
+      <name>WPT240</name>
+      <cmt>WPT240</cmt>
+      <desc>WPT240</desc>
+    </wpt>
+    <wpt lat="37.732000000" lon="-122.435666000">
+      <time>2021-12-08T11:58:01.540Z</time>
+      <name>WPT241</name>
+      <cmt>WPT241</cmt>
+      <desc>WPT241</desc>
+    </wpt>
+</gpx>
