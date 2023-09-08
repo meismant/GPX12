@@ -24,6 +24,7 @@
 		BE254AAA2672180400A7343E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE254AAD2672180400A7343E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE254AAF2672180400A7343E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE665267297AA45600AA3614 /* MN 1152 McAndrews Rd E - 14220 Grand Ave.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "MN 1152 McAndrews Rd E - 14220 Grand Ave.gpx"; path = "GPX12/Sources/MN 1152 McAndrews Rd E - 14220 Grand Ave.gpx"; sourceTree = "<group>"; };
 		BEE7337E28EB15210038910F /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sources; path = GPX12/Sources; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,6 +42,7 @@
 		BE254A952672180200A7343E = {
 			isa = PBXGroup;
 			children = (
+				BE665267297AA45600AA3614 /* MN 1152 McAndrews Rd E - 14220 Grand Ave.gpx */,
 				BEE7337E28EB15210038910F /* Sources */,
 				BE254AA02672180200A7343E /* GPX12 */,
 				BE254A9F2672180200A7343E /* Products */,
@@ -297,6 +299,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = test.Eismant.GPX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -319,6 +322,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = test.Eismant.GPX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

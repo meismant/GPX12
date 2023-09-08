@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.0" creator="GPSBabel - https://www.gpsbabel.org" xmlns="http://www.topografix.com/GPX/1/0">
+  <time>2023-04-11T07:15:48.347Z</time>
+  <bounds minlat="37.786732000" minlon="-122.443715600" maxlat="37.787438700" maxlon="-122.442210200"/>
+  <wpt lat="37.786885700" lon="-122.442210200">
+    <ele>0.000</ele>
+    <name>Waypoint 1</name>
+    <cmt>Waypoint 1</cmt>
+    <desc>Waypoint 1</desc>
+  </wpt>
+  <wpt lat="37.786878800" lon="-122.442378500">
+    <ele>0.000</ele>
+    <name>Waypoint 2</name>
+    <cmt>Waypoint 2</cmt>
+    <desc>Waypoint 2</desc>
+  </wpt>
+  <wpt lat="37.786859800" lon="-122.442502500">
+    <ele>0.000</ele>
+    <name>Waypoint 3</name>
+    <cmt>Waypoint 3</cmt>
+    <desc>Waypoint 3</desc>
+  </wpt>
+  <wpt lat="37.786849100" lon="-122.442653400">
+    <ele>0.000</ele>
+    <name>Waypoint 4</name>
+    <cmt>Waypoint 4</cmt>
+    <desc>Waypoint 4</desc>
+  </wpt>
+  <wpt lat="37.786829000" lon="-122.442785400">
+    <ele>0.000</ele>
+    <name>Waypoint 5</name>
+    <cmt>Waypoint 5</cmt>
+    <desc>Waypoint 5</desc>
+  </wpt>
+  <wpt lat="37.786807300" lon="-122.442926300">
+    <ele>0.000</ele>
+    <name>Waypoint 6</name>
+    <cmt>Waypoint 6</cmt>
+    <desc>Waypoint 6</desc>
+  </wpt>
+  <wpt lat="37.786795600" lon="-122.443061700">
+    <ele>0.000</ele>
+    <name>Waypoint 7</name>
+    <cmt>Waypoint 7</cmt>
+    <desc>Waypoint 7</desc>
+  </wpt>
+  <wpt lat="37.786774500" lon="-122.443209300">
+    <ele>0.000</ele>
+    <name>Waypoint 8</name>
+    <cmt>Waypoint 8</cmt>
+    <desc>Waypoint 8</desc>
+  </wpt>
+  <wpt lat="37.786751600" lon="-122.443352100">
+    <ele>0.000</ele>
+    <name>Waypoint 9</name>
+    <cmt>Waypoint 9</cmt>
+    <desc>Waypoint 9</desc>
+  </wpt>
+  <wpt lat="37.786743200" lon="-122.443463400">
+    <ele>0.000</ele>
+    <name>Waypoint 10</name>
+    <cmt>Waypoint 10</cmt>
+    <desc>Waypoint 10</desc>
+  </wpt>
+  <wpt lat="37.786732000" lon="-122.443564000">
+    <ele>0.000</ele>
+    <name>Waypoint 11</name>
+    <cmt>Waypoint 11</cmt>
+    <desc>Waypoint 11</desc>
+  </wpt>
+  <wpt lat="37.786814700" lon="-122.443586800">
+    <ele>0.000</ele>
+    <name>Waypoint 12</name>
+    <cmt>Waypoint 12</cmt>
+    <desc>Waypoint 12</desc>
+  </wpt>
+  <wpt lat="37.786913800" lon="-122.443611600">
+    <ele>0.000</ele>
+    <name>Waypoint 13</name>
+    <cmt>Waypoint 13</cmt>
+    <desc>Waypoint 13</desc>
+  </wpt>
+  <wpt lat="37.787010300" lon="-122.443630400">
+    <ele>0.000</ele>
+    <name>Waypoint 14</name>
+    <cmt>Waypoint 14</cmt>
+    <desc>Waypoint 14</desc>
+  </wpt>
+  <wpt lat="37.787100400" lon="-122.443648500">
+    <ele>0.000</ele>
+    <name>Waypoint 15</name>
+    <cmt>Waypoint 15</cmt>
+    <desc>Waypoint 15</desc>
+  </wpt>
+  <wpt lat="37.787205200" lon="-122.443671200">
+    <ele>0.000</ele>
+    <name>Waypoint 16</name>
+    <cmt>Waypoint 16</cmt>
+    <desc>Waypoint 16</desc>
+  </wpt>
+  <wpt lat="37.787312300" lon="-122.443690000">
+    <ele>0.000</ele>
+    <name>Waypoint 17</name>
+    <cmt>Waypoint 17</cmt>
+    <desc>Waypoint 17</desc>
+  </wpt>
+  <wpt lat="37.787438700" lon="-122.443715600">
+    <ele>0.000</ele>
+    <name>Waypoint 19</name>
+    <cmt>Waypoint 19</cmt>
+    <desc>Waypoint 19</desc>
+  </wpt>
+</gpx>
